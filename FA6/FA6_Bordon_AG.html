@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>		
+			a {
+				font-size: 25px;
+				padding: 10px;
+				Margin: 10px;
+			}
+			
+			div {
+				width: 200px;
+				height: 200px;
+				font-size:25px;
+				text-align: center;
+				border: 5px solid black;
+			}
+			
+			#L1:link {
+				background-color: blue;
+				color: red;
+			}
+			#L1:visited {
+				background-color: red;
+				color: blue;
+				
+			}
+			#L1:hover {
+				background-color: green;
+				color: yellow;
+			}
+			#L1:active {
+				background-color: yellow;
+				color: green;
+			}
+			
+			#L2:link {
+				background-color: black;
+				color: fuchsia;
+			}
+			#L2:visited {
+				background-color: fuchsia;
+				color: black;
+				
+			}
+			#L2:hover {
+				background-color: olive;
+				color: purple;
+			}
+			#L2:active {
+				background-color: purple;
+				color: olive;
+			}
+			
+			#D1:target {
+				background-color: blue;
+				color: yellow;
+			}
+			
+			#D2:target {
+				border: 10px dotted green;
+				background-color: yellow;
+				color: blue;
+			}			
+		</style>
+	</head>
+	<body>
+		<br>
+		<a id="L1" href="#D1"> First Link </a>
+		<a id="L2" href="#D2"> Second Link </a>
+		<br> <br>
+		<div id="D1"> Div 1 here </div>
+		<br>
+		<div id="D2"> Div 2 here </div>
+	</body>
+</html>
